@@ -6,7 +6,7 @@ void main()
  clrscr();
  printf("enter num:");
  scanf("%d%d",&n,&m);
- c=n+m;
+ c=n-m;
  if(c%2==0)
  {
  printf("even");
