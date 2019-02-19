@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
- int a[50],n,i,temp;
+ int a[50],n,i,t;
  clrscr();
  printf("enter num:");
  scanf("%d",&n);
@@ -15,9 +15,9 @@ void main()
  {
   if(a[0]<a[i])
   {
-  temp=a[0];
+  t=a[0];
   a[0]=a[i];
-  a[i]=temp;
+  a[i]=t;
   }
  }
  printf("%d",a[0]);
